@@ -3,7 +3,7 @@
 ## Specyfikacja gramatyki języka
 Plik ze specyfikacją znajduje się w repozytorium (dokuwiki2html\src\main\antlr4\dokuwiki.g4). Zdefiniowane są w nim reguły dla parsera (małymi literami) oraz dla lexera (wielkimi literami)
 
-'''
+```
 grammar dokuwiki;
 
 @members {
@@ -63,7 +63,7 @@ CODE_CLOSE:	'</code>' | '</file>' ;
 COMBINE: '|' ;
 URL_OPEN: 'http://' | 'https://';
 WHITESPACE:	[\t\r\n]+ -> skip ;	
-'''
+```
 
 ## Opis projektu
 Całość projektu została stworzona w języku Java przy użyciu edytora kodu Visual Studio Code. Do tworzenia translatora użyto narzędzia ANLTR w wersji 4.8. Projekt zostal zbudowany przy użyciu narzędzia Maven. Zrealizowaliśmy tłumaczenia następujących funkcjonalności języka DokuWiki:

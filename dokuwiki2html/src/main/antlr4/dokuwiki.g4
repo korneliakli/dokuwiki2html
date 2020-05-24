@@ -37,7 +37,6 @@ SUPERSCRIPT_CLOSE: '</sup>' ;
 DELETED_OPEN: '<del>' ;
 DELETED_CLOSE:	'</del>' ;
 LINEBREAK:  '\\' | '\r'?'\n' | '\r' ;
-BOLD_SINGL: '%' ;
 LINK_OPEN: '[[' ;
 LINK_CLOSE: ']]' ;
 MEDIA_OPEN:	'{{' ;
